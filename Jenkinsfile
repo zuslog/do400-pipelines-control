@@ -13,10 +13,11 @@ pipeline {
 					}
 				}
 				stage('Frontend Tests') {
-					steps 
+					steps {
 						sh 'node ./frontend/test.js'
 				    }
 				}
 			}
 		}
+    }
 }
