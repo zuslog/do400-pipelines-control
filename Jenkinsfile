@@ -15,9 +15,8 @@ pipeline {
 				stage('Frontend Tests') {
 					steps 
 						sh 'node ./frontend/test.js'
-					}
+				    }
 				}
 			}
 		}
-	}
 }
